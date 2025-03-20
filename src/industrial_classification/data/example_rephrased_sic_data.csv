@@ -1,0 +1,27 @@
+input_code,sic_code,input_description,llm_rephrased_description,reviewed_description
+01110,01110,"{Code: 01110, Title: Growing of cereals (except rice), leguminous crops and oil seeds, Example activities: Barley growing, Bean growing, Broad bean growing}",Crop farming,Crop growing
+01120,01120,"{Code: 01120, Title: Growing of rice, Example activities: Rice growing}",Rice farming,Rice growing
+01130,01130,"{Code: 01130, Title: Growing of vegetables and melons, roots and tubers, Example activities: Alliaceous vegetable growing, Artichoke growing, Asparagus growing}",Vegetable and melon farming,Vegetable and melon growing
+01140,01140,"{Code: 01140, Title: Growing of sugar cane, Example activities: Sugar cane growing}",Sugar cane farming,Sugar cane growing
+01150,01150,"{Code: 01150, Title: Growing of tobacco, Example activities: Tobacco growing}",Tobacco farming,Tobacco growing
+01160,01160,"{Code: 01160, Title: Growing of fibre crops, Example activities: Cotton growing, Fibre crop growing, Flax growing}",Fibre crop farming,Cotton and flax growing
+01190,01190,"{Code: 01190, Title: Growing of other non-perennial crops, Example activities: Alfalfa growing, Beet seed growing, Clover growing}",Seasonal crop farming,Seasonal crop growing
+01210,01210,"{Code: 01210, Title: Growing of grapes, Example activities: Grape production, Vineyards}",Grape farming,Grape growing
+01220,01220,"{Code: 01220, Title: Growing of tropical and subtropical fruits, Example activities: Avocado growing, Bananas and plantain growing, Dates growing}",Tropical fruit farming,Tropical fruit growing
+01230,01230,"{Code: 01230, Title: Growing of citrus fruits, Example activities: Clementine growing, Grapefruit growing, Growing of citrus fruits}",Citrus fruit farming,Citrus fruit growing
+01240,01240,"{Code: 01240, Title: Growing of pome fruits and stone fruits, Example activities: Apple growing, Apricot growing, Cherry growing}",Fruit farming,Stone fruit growing
+01250,01250,"{Code: 01250, Title: Growing of other tree and bush fruits and nuts, Example activities: Almond growing, Blackberry (cultivated) growing, Blackcurrant growing}",Fruit and nut farming,Fruit and nut growing
+01260,01260,"{Code: 01260, Title: Growing of oleaginous fruits, Example activities: Coconut growing, Oil palms growing, Olive growing}",Oil fruit farming,Oil fruit growing
+01270,01270,"{Code: 01270, Title: Growing of beverage crops, Example activities: Cocoa growing, Coffee growing, MatÃ© growing}",Drink crop farming,Beverage crop growing
+01280,01280,"{Code: 01280, Title: Growing of spices, aromatic, drug and pharmaceutical crops, Example activities: Anise growing, Aromatic crops growing, Badian growing}",Growing medicinal plants,Growing spices and medicinal plants
+01290,01290,"{Code: 01290, Title: Growing of other perennial crops, Example activities: Christmas tree growing, Rubber trees growing for harvesting of latex, Tree growing for extraction of sap}",Growing other crops,Growing other non-seasonal crops
+01300,01300,"{Code: 01300, Title: Plant propagation, Example activities: Mushroom spawn growing, Nursery (horticulture), Ornamental tree and shrub growing}",Plant and nursery growing,Growing plants in nurseries
+01410,01410,"{Code: 01410, Title: Raising of dairy cattle, Example activities: Buffalo milk, raw, Cows' milk (raw) production, Dairy farming}",Dairy farming,Dairy farming
+01420,01420,"{Code: 01420, Title: Raising of other cattle and buffaloes, Example activities: Bovine semen production, Buffalo raising and breeding for meat, Cattle raising and breeding for meat}",Cattle or buffalo farming,Cattle or buffalo farming
+01430,01430,"{Code: 01430, Title: Raising of horses and other equines, Example activities: Animal hair (not carded or combed) including horsehair production, Ass farming and breeding, Hinny farming and breeding}",Horse breeding and raising,Horse breeding and farming
+01440,01440,"{Code: 01440, Title: Raising of camels and camelids, Example activities: Camelid raising and breeding, Camels (dromedary) raising and breeding}",Camel farming,Camel farming
+01450,01450,"{Code: 01450, Title: Raising of sheep and goats, Example activities: Goat farming, Goat milk (raw) production, Goat raising and breeding}",Sheep and Goat Farming,Sheep and goat farming
+01460,01460,"{Code: 01460, Title: Raising of swinepigs, Example activities: Pig farming, Pig raising and breeding, Swine farming}",Pig farming,Pig farming
+01470,01470,"{Code: 01470, Title: Raising of poultry, Example activities: Chicken farm (battery rearing), Chicken raising and breeding, Duck farming}",Poultry farming,Poultry farming
+01490,01490,"{Code: 01490, Title: Raising of other animals, Example activities: Angora rabbit breeding, Animal rearing for medical research, Bee keeping}",Other animal farming,Other animal farming
+01500,01500,"{Code: 01500, Title: Mixed farming, Example activities: Crop growing in combination with farming of livestock, Mixed farming}",Crop and livestock farms,Crop and livestock farm

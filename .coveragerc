@@ -1,0 +1,4 @@
+[run]
+omit =
+    tests/conftest.py
+    src/industrial_classification/lookup/sic_lookup_example.py
