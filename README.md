@@ -38,9 +38,21 @@ cd sic-classification-library
 poetry install
 ```
 
+#### Add Git Hooks
+
+Git hooks can be used to check code before commit. To install run:
+
+```bash
+pre-commit install
+```
+
 ### Run Locally
 
-Placeholder
+There is example source for using the SIC Lookup functionality (and by proxy, the SIC Meta code) in [sic_lookup_example.py](src/industrial_classification/sic_lookup_example.py) to run:
+
+```bash
+poetry run python src/industrial_classification/lookup/sic_lookup_example.py
+```
 
 ### GCP Setup
 
