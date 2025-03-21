@@ -7,3 +7,5 @@ This module contains constants used across the industrial classification utiliti
 MIN_DIGITS = 2
 MIN_CLASSIFICATION_DIGITS = 2
 FOUR_DIGITS = 4
+FIVE_DIGITS = 5
+SIX_DIGITS = 6
