@@ -14,7 +14,7 @@ from collections.abc import Iterator
 
 import pandas as pd
 
-from industrial_classification.meta.sic_meta import sic_meta as sicDB
+from industrial_classification.meta import sic_meta as sicDB
 from industrial_classification.utils.constants import (
     FIVE_DIGITS,
     FOUR_DIGITS,
