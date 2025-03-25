@@ -1,6 +1,6 @@
 # SIC Classification Library
 
-Standard Industrial Classification (SIC) Library, initially developed for Survey Assist API.
+Standard Industrial Classification (SIC) Library, initially developed for Survey Assist API but can be used elsewhere.
 
 ## Overview
 
