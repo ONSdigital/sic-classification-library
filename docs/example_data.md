@@ -23,7 +23,7 @@ All data sets can be found in The directory [src/industrial_classification/data]
 
 ### Rephrased SIC - Example Rows
 
-| input_code | sic_code | input_description                                                                                                       | llm_rephrased_description | reviewed_description        |
+| input_code | sic_code | input_description                                                                                                       | llm_rephrased_description | rephrased_description       |
 |------------|----------|-----------------------------------------------------------------------------------------------------------------------|---------------------------|-----------------------------|
 | 01110      | 01110    | {Code: 01110, Title: Growing of cereals (except rice), leguminous crops and oil seeds, Example activities: Barley growing, Bean growing, Broad bean growing} | Crop farming              | Crop growing                |
 | 01120      | 01120    | {Code: 01120, Title: Growing of rice, Example activities: Rice growing}                                                 | Rice farming              | Rice growing                |
