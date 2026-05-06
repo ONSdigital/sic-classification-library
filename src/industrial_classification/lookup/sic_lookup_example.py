@@ -47,7 +47,7 @@ sic_rephrase_lookup = SICRephraseLookup(
     data_path="src/industrial_classification/data/example_rephrased_sic_data.csv"
 )
 
-# Retrieve reviewed description for a specific SIC code
+# Retrieve rephrased description for a specific SIC code
 rephrased_result = sic_rephrase_lookup.lookup("01300")
 print(rephrased_result)
 
