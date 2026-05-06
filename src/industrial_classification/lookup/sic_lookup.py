@@ -193,17 +193,17 @@ class SICRephraseLookup:
 
         # Create a lookup dictionary for quick access
         self.lookup_dict: dict[str, str] = self.data.set_index("sic_code")[
-            "reviewed_description"
+            "rephrased_description"
         ].to_dict()
 
     def lookup(self, sic_code: Union[str, int]) -> dict[str, Union[str, Any]]:
-        """Retrieve reviewed description for the given SIC code."""
+        """Retrieve the rephrased description for the given SIC code."""
         sic_code = str(sic_code)
 
         if sic_code in self.lookup_dict:
             return {
                 "sic_code": sic_code,
-                "reviewed_description": self.lookup_dict[sic_code],
+                "rephrased_description": self.lookup_dict[sic_code],
             }
 
         return {"sic_code": sic_code, "error": "SIC code not found"}
@@ -221,7 +221,7 @@ class SICRephraseLookup:
 
         if rephrased_sic_description:
             input_json["sic_description"] = rephrased_sic_description[
-                "reviewed_description"
+                "rephrased_description"
             ]
         else:
             input_json["sic_description"] = None
@@ -231,7 +231,7 @@ class SICRephraseLookup:
             rephrased_descriptive = self.lookup(candidate["sic_code"])
             if rephrased_descriptive:
                 candidate["sic_descriptive"] = rephrased_descriptive[
-                    "reviewed_description"
+                    "rephrased_description"
                 ]
 
         return input_json
