@@ -39,7 +39,9 @@ def sic_index_workbook_ref():
 
 @patch("industrial_classification.data_access.sic_data_access.files")
 @patch("industrial_classification.data_access.sic_data_access.pd.read_excel")
-def test_load_sic_index(mock_read_excel, mock_files, mock_sic_index_data, sic_index_workbook_ref):
+def test_load_sic_index(
+    mock_read_excel, mock_files, mock_sic_index_data, sic_index_workbook_ref
+):
     mock_files.return_value.joinpath.return_value = "dummy/sic_index.xlsx"
     mock_read_excel.return_value = mock_sic_index_data
     result = sic_data_access.load_sic_index(sic_index_workbook_ref)
@@ -106,5 +108,7 @@ def test_load_sic_hierarchy(
 
     mock_load_index.assert_called_once_with(index_ref)
     mock_load_structure.assert_called_once_with(structure_ref)
-    mock_load_hierarchy.assert_called_once_with(mock_sic_structure_data, mock_sic_index_data)
+    mock_load_hierarchy.assert_called_once_with(
+        mock_sic_structure_data, mock_sic_index_data
+    )
     assert result is mock_hierarchy
